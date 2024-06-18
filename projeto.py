@@ -14,7 +14,6 @@ while num1 != int:
     print('Por favor, verifique os campos selecionados: ')
     num1 = int(input('Digíte um outro número: '))
 
-
 if num2 == '+':
     print(num1 + num3, end='')
 elif num2 == '-':
@@ -23,8 +22,6 @@ elif num2 == '*':
     print(num1 * num3, end='')
 else:
     print(num1 / num3, end='')
-
-
 
 print(f'Seu cálculo entre {num1} e {num3} é igual a: ')
 
